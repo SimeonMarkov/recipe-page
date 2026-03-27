@@ -51,6 +51,7 @@ main {
 .section-title {
     margin-left: 1rem;
     font-weight: lighter;
+    color: var(--brown-800);
 }
 
 section li::marker {
