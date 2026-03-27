@@ -201,12 +201,13 @@ footer {
 
     main {
         width: 70vw;
+        margin-inline: auto;
         height: auto;
         background-color: var(--white);
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        margin-top: 3rem;
+        margin-block-start: 3rem;
         border-radius: 1rem;
     }
 
