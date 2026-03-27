@@ -58,8 +58,12 @@ main {
     font-size: 2rem;
 }
 
+.recipe-title {
+    margin-block-end: 3rem;
+}
+
 .section-title {
-    margin-inline-start: 1rem;
+    margin-inline-start: 2rem;
     font-weight: lighter;
     color: var(--brown-800);
 }
@@ -93,7 +97,7 @@ section li::marker {
 }
 
 .recipe-ingredients ul {
-    margin-inline-start: 2rem;
+    margin-inline-start: 2.5rem;
 }
 
 li {
@@ -110,6 +114,10 @@ li {
     color: var(--rose-800);
 }
 
+.recipe-preparation-time ul {
+    margin-inline-start: 0.5rem;
+}
+
 .recipe-instructions {
     display: flex;
     flex-direction: column;
@@ -118,7 +126,7 @@ li {
 }
 
 .recipe-instructions ol {
-    margin-inline-start: 2rem;
+    margin-inline-start: 2.5rem;
 }
 
 .nutrition-details {
@@ -142,6 +150,7 @@ li {
     width: 90%;
     margin-inline-start: 1rem;
     border-collapse: collapse;
+    margin-block-end: 2rem;
 }
 
 .nutrition-table td {
@@ -154,6 +163,15 @@ li {
 
 footer {
     margin-top: 3rem;
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @font-face {
@@ -200,7 +218,7 @@ footer {
     }
 
     main {
-        width: 70vw;
+        width: 60vw;
         margin-inline: auto;
         height: auto;
         background-color: var(--white);
